@@ -1,0 +1,42 @@
+p, h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    color: rgb(71, 71, 71);
+}
+
+.text{
+    margin-bottom: 5rem;
+}
+
+.author{
+    margin: 1.5rem 0;
+}
+
+.shop_red{
+    background-color: rgb(206, 33, 33);
+    color:white;
+    padding: 1rem 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.shop_red a{
+    color: white;
+    text-decoration: none;
+}
+.shop_red a:hover{
+    text-decoration: underline;
+}
+
+.shop_normal a{
+    text-decoration: none;
+    color:red
+}
+.shop_normal a:hover{
+    text-decoration: underline;
+}
+
+span{
+    text-decoration: underline;
+}

@@ -1,12 +1,28 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
 #search-bar {
     display: block;
     font-size: 1.25rem;
 }
 
-.video {
-    margin-right: 1rem;
-    display: inline-block;
-    width: 400px;
+.main-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1rem;
+    row-gap: 2rem;
+}
+
+.video{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.video-details {
+   display: grid;
+   grid-template-columns: 100px 1fr;
 }
 
 .video-thumbnail{
@@ -16,6 +32,11 @@
 .video-details-channel-pic,
 .video-details-text {
     display: inline-block;
+}
+
+.video-details-text-title{
+    font-weight: bold;
+    margin-top: 0;
 }
 
 .video-details-channel-pic img{
@@ -29,5 +50,4 @@
     text-align: left;
     margin-left: 1rem;
     margin-bottom: 0;
-    width: 250px;
 }

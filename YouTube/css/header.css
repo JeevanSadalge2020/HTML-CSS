@@ -1,0 +1,69 @@
+header {
+    display: flex;
+    /* border: 1px solid black; */
+    margin-bottom: 1rem;
+    height: 40px;
+    margin-top: 1rem;
+}
+
+header img {
+    width: 50px;
+}
+
+header img:hover {
+    width: 50px;
+    cursor: pointer;
+}
+
+.header-hamburgur {
+    display: flex;
+    flex: 1;
+    gap: 1rem;
+    justify-content: left;
+    align-items: center;
+}
+
+.header-hamburgur img:nth-child(1) {
+    width: 40px;
+}
+
+.header-hamburgur img:nth-child(2) {
+    width: 120px;
+}
+
+.header-search-bar {
+    display: flex;
+    flex: 3;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1.5rem;
+}
+
+.header-search-bar input {
+    flex: 3;
+    height: 50px;
+    font-size: 10rem;
+}
+
+.header-mic:hover{
+    background-color: rgb(232, 232, 232);
+    border-radius: 50%;
+    transition: background-color 1s ease;
+}
+
+.header-mic{
+    padding: 10px;
+}
+
+.header-channel {
+    display: flex;
+    justify-content: right;
+    gap: 1.5rem;
+    flex: 2;
+}
+
+.header-search-bar input::placeholder {
+    font-size: 1.2rem;
+    font-weight: 500;
+    opacity: 0.5;
+}

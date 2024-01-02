@@ -1,0 +1,10 @@
+.box{
+    width: 400px;
+    background-color: rgb(131, 166, 198);
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
